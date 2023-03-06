@@ -20,9 +20,9 @@ namespace DemoHelpSystem
             this.MaximizeBox = false;
             this.MinimizeBox = false;
 
-            // Defineix el fitxer d'ajuda
+            // Defineix el fitxer d'ajuda, cal definir la ruta relativa o absoluta
             //helpProvider1.HelpNamespace = "MyApp.htm";
-            //helpProvider1.HelpNamespace = "";
+            //helpProvider1.HelpNamespace = "MyApp.chm";
             
 
             // Associar el control HelpProvider amb cada control que té ajuda contextual
