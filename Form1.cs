@@ -29,6 +29,19 @@ namespace DemoHelpSystem
             helpProvider1.SetHelpString(this.button1, "Aquest botó serveix per desar les dades");
             helpProvider1.SetHelpString(this.textBox1, "Introduïu el vostre nom aquí");
 
+
+            //demo toolTip
+
+            // Defineix el text de la ajuda contextual per a cada control
+            toolTip1.SetToolTip(this.button2, "Aquest botó2 serveix per desar les dades");
+            toolTip1.SetToolTip(this.textBox2, "Introduïu el vostre cognom aquí");
+
+            // Defineix el temps que el text de la ajuda contextual apareixerà
+            toolTip1.AutoPopDelay = 5000;
+
+            // Defineix retards d'aparició l'ajuda contextual
+            toolTip1.InitialDelay = 1000;
+            toolTip1.ReshowDelay = 500;
         }
     }
 }
