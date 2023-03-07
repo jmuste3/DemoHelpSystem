@@ -43,5 +43,11 @@ namespace DemoHelpSystem
             toolTip1.InitialDelay = 1000;
             toolTip1.ReshowDelay = 500;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //obrir manualment arxiu d'ajuda
+            Help.ShowHelp(this, helpProvider1.HelpNamespace);
+        }
     }
 }
